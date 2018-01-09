@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Academic Start</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <link rel="shortcut icon" href="/assets/img/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.min.css" />
-    <link href="//fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-    <script src="/assets/js/modernizr.custom.js"></script>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.min.css"/>
+    <link href="//fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+          rel="stylesheet">
+    <script src="assets/js/modernizr.custom.js"></script>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1assets/owl.carousel.min.css" rel="stylesheet">
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
-    <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon"/>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
@@ -26,78 +27,97 @@
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <style>
         a:hover {
             text-decoration: none;
         }
+
         div#ip-container {
             max-height: 150vh;
         }
+
         div.oxford {
-            background-image: url("/assets/img/background_sketch_Oxford.png");
+            background-image: url("assets/img/background_sketch_Oxford.png");
             background-size: cover;
             background-position: right;
             padding: 20vh 0 0 0;
             height: 140vh;
         }
+
         .h4 {
             color: #263376;
             font-size: 18px;
             padding-top: 3vh;
             padding-bottom: 2vh;
         }
+
         .col-sm-4 {
             text-align: left;
         }
+
         #regForm {
             height: 50vh;
         }
+
         #regForm .row {
             padding-top: 2vh;
         }
+
         #regForm a {
             margin-top: 0;
             margin-bottom: 1vh;
         }
+
         a.step.active {
             color: #e40d1d;
             border-color: red
         }
+
         a.step {
             background-repeat: no-repeat;
             background-position: 50% 20%;
         }
+
         .header-menu > a.step {
             background-repeat: no-repeat;
             background-position: 50% 20%;
             pointer-events: none;
         }
+
         a.step.step1 {
-            background-image: url("/assets/img/step1.png");
+            background-image: url("assets/img/step1.png");
         }
+
         a.step.step2 {
-            background-image: url("/assets/img/step2.png");
+            background-image: url("assets/img/step2.png");
         }
+
         a.step.step3 {
-            background-image: url("/assets/img/step3.png");
+            background-image: url("assets/img/step3.png");
         }
+
         div.step {
             width: 2vw;
-            background-image: url("/assets/img/arrow.png");
+            background-image: url("assets/img/arrow.png");
             background-position: center;
             background-repeat: no-repeat;
         }
+
         #regForm input {
             color: black;
         }
+
         @media screen and (min-width: 480px) {
             div#ip-container {
                 max-height: 100vh;
             }
+
             #regForm {
-                height: 20vh;
+                height: 25vh;
             }
+
             div.oxford {
                 height: 93vh;
             }
@@ -105,16 +125,17 @@
     </style>
 </head>
 <body>
-<div id="ip-container">
+<div id="ip-container" style="max-height: 100%;">
     <!-- initial header -->
     <header class="ip-header">
         <h1 class="ip-logo">
-            <img src="/assets/img/study_academy_goriz_color-01.svg" />
+            <img src="assets/img/study_academy_goriz_color-01.svg"/>
         </h1>
         <div class="ip-loader">
             <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
                 <path class="ip-loader-circlebg" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
-                <path id="ip-loader-circle" class="ip-loader-circle" d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
+                <path id="ip-loader-circle" class="ip-loader-circle"
+                      d="M40,10C57.351,10,71,23.649,71,40.5S57.351,71,40.5,71 S10,57.351,10,40.5S23.649,10,40.5,10z"/>
             </svg>
         </div>
     </header>
@@ -126,19 +147,19 @@
                 <div class="top-line__i">
                     <div class="top-line__phones">
                         <div class="top-line__phone">
-                            <img class="top-line__phone-icon" src="/assets/img/top-line__phone.png" />
+                            <img class="top-line__phone-icon" src="assets/img/top-line__phone.png"/>
                             <a href="tel:0445000320" class="top-line__phone-number">(044) 500-03-20</a>
                         </div>
                         <div class="top-line__phone">
-                            <img class="top-line__phone-icon" src="/assets/img/top-line__kievstar.png" />
-                            <a href="tel:0970000320" class="top-line__phone-number">(097) 000-03-20  </a>
+                            <img class="top-line__phone-icon" src="assets/img/top-line__kievstar.png"/>
+                            <a href="tel:0970000320" class="top-line__phone-number">(097) 000-03-20 </a>
                         </div>
                         <div class="top-line__phone">
-                            <img class="top-line__phone-icon" src="/assets/img/top-line__lifecell.png" />
+                            <img class="top-line__phone-icon" src="assets/img/top-line__lifecell.png"/>
                             <a href="tel:0930000320" class="top-line__phone-number">(093) 000-03-20 </a>
                         </div>
                         <div class="top-line__phone">
-                            <img class="top-line__phone-icon" src="/assets/img/top-line__vodafone.png" />
+                            <img class="top-line__phone-icon" src="assets/img/top-line__vodafone.png"/>
                             <a href="tel:0990000320" class="top-line__phone-number">(099) 000-03-20</a>
                         </div>
                     </div>
@@ -149,7 +170,7 @@
         <div class="header wow1 fadeInUp" data-wow-delay=".35s" id="header">
             <div class="container">
                 <div class="header__i">
-                    <a href="#"><img class="header__logo" src="/assets/img/study_academy_goriz_color-01.svg" /></a>
+                    <a href="#"><img class="header__logo" src="assets/img/study_academy_goriz_color-01.svg"/></a>
                     <div class="header-menu">
                         <a class="scroll_link active step step1" href="#">Введите ваши данные</a>
                         <div class="step">&nbsp;</div>
@@ -157,7 +178,7 @@
                         <div class="step">&nbsp;</div>
                         <a class="scroll_link step step3" href="#">Переходите к обучению</a>
                     </div>
-                    <div class="header__hamburg" onclick="openMenu()"><img src="/assets/img/menu.svg" /></div>
+                    <div class="header__hamburg" onclick="openMenu()"><img src="assets/img/menu.svg"/></div>
                 </div>
             </div>
         </div> <!-- /.header -->
@@ -174,35 +195,44 @@
                             После заполнения формы регистрации у вас будет возможность пройти тест в любое удобное время.
                         </div>
                         <div class="screen01__header h4">Заполните форму ниже:</div>
-                        <form action="register2.php" id="regForm" method="post" class="screen10-form wow1 fadeInUp">
-                            <img src="/assets/img/reg-header.png" class="screen10-form__top">
-                            <div class="row">
-                                <div class="col-sm-4">
+
+
+                        <form action="register2.php" method="post" class="wow1 fadeInUp" style="    box-shadow: 1px 2px 6px rgba(0,0,0,.15);border: 1px solid #eae9e9;background-color: #fff;border-radius: 5px;">
+                            <div class="form__header" style="    border-top: 9px solid #f81617;height: 45px;">
+                                <div class="form__header-right"
+                                     style="color:#fff;background: #f81617;padding: 5px;position: absolute;right: 0px;display: inline-block;    border-bottom-left-radius: 5px;text-transform: uppercase;font-size: 12px;right: 16px;margin-top: -1px">
+                                    Регистрация
+                                </div>
+                            </div>
+
+                            <div class="row" style="padding-left: 22px;padding-right: 22px;">
+                                <div class="col-md-4">
                                     <label for="name">Ваше имя</label>
                                     <input name="name" id="name" type="text" class="screen10-form__input" placeholder="Ваше имя">
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-md-4">
                                     <label for="email">Ваш email</label>
                                     <input name="email" id="email" type="email" class="screen10-form__input" placeholder="Ваш email">
                                 </div>
-                                <div class="col-sm-4">
+                                <div class="col-md-4">
                                     <label for="phone">Ваш телефон</label>
                                     <input type="tel" id="phone" name="phone" class="screen10-form__input" placeholder="+38 044 500 03 20">
                                 </div>
-                                <input type="hidden" name="utm_source" value="">
-                                <input type="hidden" name="utm_campaign" value="">
-                                <input type="hidden" name="utm_medium" value="">
                             </div>
-                            <!--<a href="#" onclick="document.getElementById('regForm').submit();"-->
-                            <a href="#" onclick="regFormSubmit()"
-                               class="screen01__btn scroll_link wow1 fadeInUp" data-wow-delay=".05s">Отправить</a>
+                            <div class="row">
+                                <div class="col-md-12" style="text-align: center">
+                                    <a href="#" onclick="regFormSubmit()"
+                                       class="screen01__btn scroll_link wow1 fadeInUp" data-wow-delay=".05s" style="margin-bottom: 10px;">Отправить</a>
+                                </div>
+                            </div>
                         </form>
+
                     </div>
                 </div>
             </div>
         </div> <!-- /.screen01 -->
 
-        <div class="footer">
+        <div class="footer" style="margin-top: 15px;">
             <div class="footer-top">
                 <div class="container">
                     <div class="footer-top__copyright wow1 fadeInUp">
@@ -240,11 +270,11 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.min.js" type="text/javascript"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js" type="text/javascript"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js" type="text/javascript"></script>
-<!--<script src="/assets/js/parallax.min.js"></script>-->
+<!--<script src="assets/js/parallax.min.js"></script>-->
 
-<script src="/assets/js/classie.js"></script>
-<script src="/assets/js/pathLoader.js"></script>
-<script src="/assets/js/main.js"></script>
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/pathLoader.js"></script>
+<script src="assets/js/main.js"></script>
 <script>
     function urlParam(name) {
         var regexS = "[\\?&]" + name + "=([^&#]*)",
@@ -256,11 +286,13 @@
             return decodeURIComponent(results[1].replace(/\+/g, " "));
         }
     }
+
     $(document).ready(function () {
         $('input[name=utm_source]').val(urlParam('utm_source'));
         $('input[name=utm_campaign]').val(urlParam('utm_campaign'));
         $('input[name=utm_medium]').val(urlParam('utm_medium'));
     });
+
     function regFormSubmit() {
         var phone = new RegExp('^((\\+*3|7|8)+([0-9]){10})$');
         var current = $('#phone').val();
@@ -270,8 +302,8 @@
                 type: "POST",
                 data: $('#regForm').serialize(),
                 dataType: 'json',
-                success: function(res) {
-                    if(res.success) {
+                success: function (res) {
+                    if (res.success) {
                         console.log(res);
                         alert('Ваша заявка успешно зарегистрирована');
                         $('#regForm')[0].reset();
@@ -287,7 +319,7 @@
         }
     }
 
-    $(document).ready(function() {
+    $(document).ready(function () {
         $("#header").sticky({
             topSpacing: 0,
             zIndex: 5
@@ -302,14 +334,14 @@
             lang: 'ru'
         });
 
-        $('#regform').on('submit', function(e) {
+        $('#regform').on('submit', function (e) {
             e.preventDefault();
             regFormCall++;
-            if(regFormCall==1) {
+            if (regFormCall == 1) {
                 widgetRecaptcha = grecaptcha.render('regform-recaptcha', {
-                    'sitekey' : sitekey,
-                    'callback' : regFormSubmit,
-                    'size' : "invisible"
+                    'sitekey': sitekey,
+                    'callback': regFormSubmit,
+                    'size': "invisible"
                 });
             }
             grecaptcha.reset(widgetRecaptcha);
@@ -317,14 +349,14 @@
         });
 
 
-        $('#smsform').on('submit', function(e) {
+        $('#smsform').on('submit', function (e) {
             e.preventDefault();
             smsFormCall++;
-            if(smsFormCall==1) {
+            if (smsFormCall == 1) {
                 widgetRecaptcha = grecaptcha.render('smsform-recaptcha', {
-                    'sitekey' : sitekey,
-                    'callback' : smsFormSubmit,
-                    'size' : "invisible"
+                    'sitekey': sitekey,
+                    'callback': smsFormSubmit,
+                    'size': "invisible"
                 });
             }
             grecaptcha.reset(widgetRecaptcha);
@@ -332,7 +364,7 @@
         });
 
 
-        $(function() {
+        $(function () {
             var icons = {
                 header: "screen04__arrow-down",
                 activeHeader: "screen04__arrow-up"
@@ -354,49 +386,49 @@
             });
         });
 
-        $(function() {
+        $(function () {
             $("#tabs").tabs();
         });
 
         $('.phone-input').mask('+38 (000) 000-0000', {placeholder: "+38 (___) ___-____"});
 
-        $(".scroll_link").click(function(event) {
+        $(".scroll_link").click(function (event) {
             event.preventDefault();
             var id = $(this).attr("href");
             var top = $(id).offset().top;
             closeMenu();
-            $("body, html").animate({scrollTop:top}, 500);
+            $("body, html").animate({scrollTop: top}, 500);
         });
 
         $('.owl-carousel-1').owlCarousel({
-            responsive:{
-                0:{
-                    items:1
+            responsive: {
+                0: {
+                    items: 1
                 },
-                600:{
-                    items:2
+                600: {
+                    items: 2
                 },
-                800:{
-                    items:3
+                800: {
+                    items: 3
                 },
-                1000:{
-                    items:3
+                1000: {
+                    items: 3
                 },
                 1200: {
-                    items:3
+                    items: 3
                 },
                 1400: {
-                    items:3
+                    items: 3
                 }
             },
-            margin:30,
-            nav:true,
-            navText: ["<img src='/assets/img/prev.png'>","<img src='/assets/img/next.png'>"]
+            margin: 30,
+            nav: true,
+            navText: ["<img src='assets/img/prev.png'>", "<img src='assets/img/next.png'>"]
         });
         $('.owl-carousel-2').owlCarousel({
-            margin:30,
-            nav:true,
-            navText: ["",""],
+            margin: 30,
+            nav: true,
+            navText: ["", ""],
             items: 1
         });
     });
@@ -405,6 +437,7 @@
         $('#register-modal').addClass('register-modal_show');
         return false;
     }
+
     function regModalClose() {
         $('#register-modal').removeClass('register-modal_show');
         return false;
@@ -442,11 +475,11 @@
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             map: map,
-            icon: '/assets/img/marker.png'
+            icon: 'assets/img/marker.png'
         });
 
-        google.maps.event.addListener(marker, 'click', (function(marker, i) {
-            return function() {
+        google.maps.event.addListener(marker, 'click', (function (marker, i) {
+            return function () {
                 infowindow.setContent(locations[i][0]);
                 infowindow.open(map, marker);
             }

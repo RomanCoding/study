@@ -7,13 +7,13 @@
     <title>Academic Start</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
-    <link rel="shortcut icon" href="/assets/img/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="/assets/css/main.min.css" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.min.css" />
     <link href="//fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-    <script src="/assets/js/modernizr.custom.js"></script>
+    <script src="assets/js/modernizr.custom.js"></script>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1assets/owl.carousel.min.css" rel="stylesheet">
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
     <link href="/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
@@ -30,7 +30,7 @@
             max-height: 140vh;
         }
         div.oxford {
-            background-image: url("/assets/img/background_sketch_Oxford.png");
+            background-image: url("assets/img/background_sketch_Oxford.png");
             background-size: cover;
             padding: 30vh 0 0 0;
             height: 90vh;
@@ -61,17 +61,17 @@
             pointer-events: none;
         }
         a.step.step1c {
-            background-image: url("/assets/img/step1c.png");
+            background-image: url("assets/img/step1c.png");
         }
         a.step.step2 {
-            background-image: url("/assets/img/step2.png");
+            background-image: url("assets/img/step2.png");
         }
         a.step.step3 {
-            background-image: url("/assets/img/step3.png");
+            background-image: url("assets/img/step3.png");
         }
         div.step {
             width: 2vw;
-            background-image: url("/assets/img/arrow.png");
+            background-image: url("assets/img/arrow.png");
             background-position: center;
             background-repeat: no-repeat;
         }
@@ -82,7 +82,7 @@
     <!-- initial header -->
     <header class="ip-header">
         <h1 class="ip-logo">
-            <img src="/assets/img/study_academy_goriz_color-01.svg" />
+            <img src="assets/img/study_academy_goriz_color-01.svg" />
         </h1>
         <div class="ip-loader">
             <svg class="ip-inner" width="60px" height="60px" viewBox="0 0 80 80">
@@ -99,19 +99,19 @@
                 <div class="top-line__i">
                     <div class="top-line__phones">
                         <div class="top-line__phone">
-                            <img class="top-line__phone-icon" src="/assets/img/top-line__phone.png" />
+                            <img class="top-line__phone-icon" src="assets/img/top-line__phone.png" />
                             <a href="tel:0445000320" class="top-line__phone-number">(044) 500-03-20</a>
                         </div>
                         <div class="top-line__phone">
-                            <img class="top-line__phone-icon" src="/assets/img/top-line__kievstar.png" />
+                            <img class="top-line__phone-icon" src="assets/img/top-line__kievstar.png" />
                             <a href="tel:0970000320" class="top-line__phone-number">(097) 000-03-20  </a>
                         </div>
                         <div class="top-line__phone">
-                            <img class="top-line__phone-icon" src="/assets/img/top-line__lifecell.png" />
+                            <img class="top-line__phone-icon" src="assets/img/top-line__lifecell.png" />
                             <a href="tel:0930000320" class="top-line__phone-number">(093) 000-03-20 </a>
                         </div>
                         <div class="top-line__phone">
-                            <img class="top-line__phone-icon" src="/assets/img/top-line__vodafone.png" />
+                            <img class="top-line__phone-icon" src="assets/img/top-line__vodafone.png" />
                             <a href="tel:0990000320" class="top-line__phone-number">(099) 000-03-20</a>
                         </div>
                     </div>
@@ -122,13 +122,13 @@
         <div class="header wow1 fadeInUp" data-wow-delay=".35s" id="header">
             <div class="container">
                 <div class="header__i">
-                    <a href="#"><img class="header__logo" src="/assets/img/study_academy_goriz_color-01.svg" /></a>
+                    <a href="#"><img class="header__logo" src="assets/img/study_academy_goriz_color-01.svg" /></a>
                     <div class="header-menu">
                         <a class="scroll_link step step1c" href="#">Введите ваши данные</a>
                         <a class="scroll_link active step step2" href="#">Пройдите тестирование</a>
                         <a class="scroll_link step step3" href="#">Переходите к обучению</a>
                     </div>
-                    <div class="header__hamburg" onclick="openMenu()"><img src="/assets/img/menu.svg" /></div>
+                    <div class="header__hamburg" onclick="openMenu()"><img src="assets/img/menu.svg" /></div>
                 </div>
             </div>
         </div> <!-- /.header -->
@@ -193,11 +193,11 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.12/jquery.mask.min.js" type="text/javascript"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js" type="text/javascript"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js" type="text/javascript"></script>
-<!--<script src="/assets/js/parallax.min.js"></script>-->
+<!--<script src="assets/js/parallax.min.js"></script>-->
 
-<script src="/assets/js/classie.js"></script>
-<script src="/assets/js/pathLoader.js"></script>
-<script src="/assets/js/main.js"></script>
+<script src="assets/js/classie.js"></script>
+<script src="assets/js/pathLoader.js"></script>
+<script src="assets/js/main.js"></script>
 <script>
     function getHash() {
         var queryString = window.location.search;
@@ -329,7 +329,7 @@
             },
             margin:30,
             nav:true,
-            navText: ["<img src='/assets/img/prev.png'>","<img src='/assets/img/next.png'>"]
+            navText: ["<img src='assets/img/prev.png'>","<img src='assets/img/next.png'>"]
         });
         $('.owl-carousel-2').owlCarousel({
             margin:30,
@@ -371,7 +371,7 @@
         marker = new google.maps.Marker({
             position: new google.maps.LatLng(locations[i][1], locations[i][2]),
             map: map,
-            icon: '/assets/img/marker.png'
+            icon: 'assets/img/marker.png'
         });
 
         google.maps.event.addListener(marker, 'click', (function(marker, i) {
