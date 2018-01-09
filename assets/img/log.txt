@@ -1,0 +1,108 @@
+[2017.12.07 17:30:05] Launched version: 1001023, alpha: [FALSE], beta: 0, debug mode: [FALSE], test dc: [FALSE]
+[2017.12.07 17:30:05] Executable dir: C:/Users/User/AppData/Roaming/Telegram Desktop/, name: Telegram.exe
+[2017.12.07 17:30:05] Initial working dir: C:/OSPanel/domains/work.local/assets/img/
+[2017.12.07 17:30:05] Working dir: C:/OSPanel/domains/work.local/assets/img/
+[2017.12.07 17:30:05] Command line: C:\Users\User\AppData\Roaming\Telegram Desktop\Telegram.exe C:\OSPanel\domains\work.local\assets\img\map.png
+[2017.12.07 17:30:05] Executable path before check: C:/Users/User/AppData/Roaming/Telegram Desktop/Telegram.exe
+[2017.12.07 17:30:05] Logs started
+[2017.12.07 17:30:05] Connecting local socket to Global\f24b6631e320fe48cd0f9b354a2cc22f-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2017.12.07 17:30:05] This is the only instance of Telegram, starting server and app...
+[2017.12.07 17:30:05] Moved logging from 'log_start0.txt' to 'C:/OSPanel/domains/work.local/assets/img/log.txt'!
+[2017.12.07 17:30:06] Checking...
+[2017.12.07 17:30:06] Checking C:\Users\User\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\.
+[2017.12.07 17:30:06] Checking C:\Users\User\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\..
+[2017.12.07 17:30:06] Checking C:\Users\User\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Google Chrome.lnk
+[2017.12.07 17:30:06] Checking C:\Users\User\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\JetBrains PhpStorm 2017.3 x64.lnk
+[2017.12.07 17:30:06] Checking C:\Users\User\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Telegram.lnk
+[2017.12.07 17:30:06] Reading...
+[2017.12.07 17:30:06] Already!
+[2017.12.07 17:30:06] OpenAL Logging Level: (not set)
+[2017.12.07 17:30:06] Audio Playback Devices: OpenAL Soft
+[2017.12.07 17:30:06] Audio Playback Default Device: OpenAL Soft
+[2017.12.07 17:30:07] Audio Capture Devices: 
+[2017.12.07 17:30:07] Audio Capture Default Device: 
+[2017.12.07 17:30:08] Window Shadow: 1, 1, 3, 4, 6, 9, 13, 18, 24, 31, 38, 46
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_admin_log_history_made_hidden'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_admin_log_history_made_visible'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_channel_admin_sure'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_context_remove_admin'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_group_invite_about_channel'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_info_about_label'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_info_add_as_contact'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_info_bio_label'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_info_bot_title'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_info_channel_title'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_info_delete_contact'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_info_edit_contact'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_info_group_title'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_info_link_label'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_info_mobile_label'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_info_share_contact'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_info_tab_media'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_info_user_title'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_info_username_label'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_manage_channel_info'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_manage_channel_title'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_manage_group_info'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_manage_group_title'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_manage_history_visibility_hidden'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_manage_history_visibility_hidden_about'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_manage_history_visibility_shown'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_manage_history_visibility_shown_about'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_manage_history_visibility_title'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_manage_peer_administrators'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_manage_peer_banned_users'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_manage_peer_members'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_manage_peer_recent_actions'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_manage_peer_restricted_users'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_audio_empty'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_file_empty'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_file_empty_search'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_link_empty'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_link_empty_search'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_photo_empty'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_audio#zero'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_audio#one'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_audio#two'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_audio#few'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_audio#many'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_audio#other'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_file#zero'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_file#one'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_file#two'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_file#few'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_file#many'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_file#other'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_link#zero'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_link#one'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_link#two'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_link#few'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_link#many'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_link#other'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_photo#zero'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_photo#one'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_photo#two'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_photo#few'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_photo#many'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_photo#other'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_song#zero'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_song#one'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_song#two'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_song#few'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_song#many'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_song#other'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_video#zero'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_video#one'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_video#two'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_video#few'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_video#many'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_selected_video#other'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_song_empty'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_song_empty_search'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_type_rounds'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_media_video_empty'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_profile_edit_group_name'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_profile_join_group'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_signin_banned_help'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_signin_banned_text'
+[2017.12.07 17:30:09] Lang Error: Unknown key 'lng_stickers_group_from_featured'
