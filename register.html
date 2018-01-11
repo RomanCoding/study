@@ -122,6 +122,23 @@
                 height: 93vh;
             }
         }
+
+
+        a.step{
+            line-height: 12px;
+        }
+        a.step i{
+            display: block;
+            height: 20px;
+            background: url(assets/img/circle.png);
+            background-repeat: no-repeat;
+            background-position: bottom 24% left;
+            padding-left: 20px;
+            padding-top: 7px;
+            margin-bottom: 7px;
+            margin-left: 31px;
+            margin-top: 8px;
+        }
     </style>
 </head>
 <body>
@@ -172,11 +189,17 @@
                 <div class="header__i">
                     <a href="#"><img class="header__logo" src="assets/img/study_academy_goriz_color-01.svg"/></a>
                     <div class="header-menu">
-                        <a class="scroll_link active step step1" href="#">Введите ваши данные</a>
+                        <a class="scroll_link active step " href="#">
+                            <i>Шаг 1</i>
+                            Введите ваши данные</a>
                         <div class="step">&nbsp;</div>
-                        <a class="scroll_link step step2" href="#">Пройдите тестирование</a>
+                        <a class="scroll_link step " href="#">
+                            <i>Шаг 2</i>
+                            Пройдите тестирование</a>
                         <div class="step">&nbsp;</div>
-                        <a class="scroll_link step step3" href="#">Переходите к обучению</a>
+                        <a class="scroll_link step " href="#">
+                            <i>Шаг 3</i>
+                            Переходите к обучению</a>
                     </div>
                     <div class="header__hamburg" onclick="openMenu()"><img src="assets/img/menu.svg"/></div>
                 </div>
